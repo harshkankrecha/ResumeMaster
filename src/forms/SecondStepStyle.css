@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body {
+  font-family: 'Poppins',sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group .remove-btn {
+  margin-top: 5px;
+  cursor: pointer;
+  color: #1976D2;
+}
+
+.btn-container{
+  display:flex;
+  justify-content: space-between;
+}
+.button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+#add-btn{
+  height: 45px;
+  margin: 35px 0;
+  float:right;
+  width:46%;
+  border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   
+  background: linear-gradient(135deg, #FF9F00, #FF6700);;
+  
+}
+.btn-submit:hover{
+  /* transform: scale(0.99); */
+  background: linear-gradient(-135deg, #FF9F00, #FF6700);
+  }
+
+#prev-btn{
+  height: 45px;
+
+  margin: 35px 0;
+  float:left;
+  width:46%;
+  border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   
+  background: linear-gradient(135deg, #FF9F00, #FF6700);;
+}
+#prev-btn:hover{
+  /* transform: scale(0.99); */
+  background: linear-gradient(-135deg, #FF9F00, #FF6700);
+  }
+.field-containers{
+  display:flex;
+  justify-content: space-between;  /* Add some space between elements */
+  
+   /* Set a maximum width for the form */
+  
+  
+}
